@@ -9,7 +9,7 @@ columns = [
     "High fever last year", "Frequency of alcohol consumption",
     "Smoking habit", "Number of hours spent sitting per day", "Output"
 ]
-df = pd.read_csv("C:/mlcas/fertility_Diagnosis.txt", header=None, names=columns)
+df = pd.read_csv("fertility_Diagnosis.txt", header=None, names=columns)
 
 # Encode target
 df['Output'] = df['Output'].map({'N': 0, 'O': 1})  # N: Normal, O: Altered
