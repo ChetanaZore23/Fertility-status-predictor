@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 
 # Load trained model
-model = joblib.load("model.pkl")
+model = joblib.load("fertility_model.pkl")
 
 st.title("🌱 FertiCheck: Fertility Status Predictor")
 
